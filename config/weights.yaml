@@ -1,0 +1,28 @@
+# "Expected impact" weights. Citation counts barely exist for brand-new
+# humanities work, so venue tier and recency carry most of the signal.
+version: 1
+
+score:
+  venue: 0.30
+  citation: 0.25
+  relevance: 0.20
+  recency: 0.15
+  cross_source: 0.10
+  jstor: 0.05
+
+recency:
+  half_life_days: 30
+
+selection:
+  max_papers: 9
+  max_books: 3
+  max_per_venue: 3
+  max_per_language: 5
+  # Soft floors: if a language has nothing new today, pull from the
+  # recent candidate pool (backfill_days) and say so in the footer.
+  language_floor:
+    en: 2
+    ja: 1
+    ko: 1
+    zh: 1
+  backfill_days: 7

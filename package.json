@@ -1,0 +1,33 @@
+{
+  "name": "nihon-digest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily digest of modern Japanese history scholarship (1868-), covering Chinese, English, Japanese and Korean sources.",
+  "scripts": {
+    "collect": "node --env-file-if-exists=.env --experimental-strip-types pipeline/cli.ts collect",
+    "digest": "node --env-file-if-exists=.env --experimental-strip-types pipeline/cli.ts digest",
+    "site": "node --env-file-if-exists=.env --experimental-strip-types pipeline/cli.ts site",
+    "send": "node --env-file-if-exists=.env --experimental-strip-types pipeline/cli.ts send",
+    "run": "node --env-file-if-exists=.env --experimental-strip-types pipeline/cli.ts run",
+    "backfill": "node --env-file-if-exists=.env --experimental-strip-types pipeline/cli.ts backfill",
+    "jstor": "node --env-file-if-exists=.env --experimental-strip-types pipeline/cli.ts jstor",
+    "doctor": "node --env-file-if-exists=.env --experimental-strip-types pipeline/cli.ts doctor",
+    "preview": "node --experimental-strip-types pipeline/serve.ts",
+    "test": "node --experimental-strip-types --test --test-isolation=none \"tests/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.1",
+    "yaml": "^2.6.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=22.6"
+  }
+}

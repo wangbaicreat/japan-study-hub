@@ -1,0 +1,55 @@
+version: 1
+
+openalex:
+  enabled: true
+  lookback_days: 150
+  per_page: 50
+  # Cap total HTTP calls; each call costs a little against the OpenAlex budget.
+  max_requests: 40
+
+crossref:
+  enabled: true
+  lookback_days: 240
+  rows: 40
+  queries:
+    - modern Japan history
+    - Meiji Japan
+    - Japanese empire
+    - postwar Japan history
+
+jstage:
+  enabled: true
+  count: 50
+  max_keywords: 10
+
+kci:
+  enabled: true
+  lookback_days: 180
+
+cinii:
+  enabled: true
+  lookback_days: 180
+
+ndl:
+  enabled: false
+  lookback_days: 180
+
+jstor:
+  enabled: true
+  kbart_max_age_days: 7
+
+cnjournals:
+  enabled: true
+  max_articles_per_journal: 12
+  journals:
+    - name: 日本学刊
+      home: https://rbxk.ajcass.com/
+      enabled: true
+    # Uncomment after checking that the current issue is actually being updated:
+    # - name: 世界历史
+    #   home: https://sjls.ajcass.com/
+    #   enabled: true
+
+hnet:
+  enabled: false
+  feed_url: https://networks.h-net.org/h-japan/feed

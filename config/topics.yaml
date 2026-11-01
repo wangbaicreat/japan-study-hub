@@ -1,0 +1,195 @@
+# What counts as "modern Japanese history (1868-)" in each language.
+# An item is a candidate when it contains a `japan` term AND a `modern` term,
+# and contains no `exclude` term. Case-insensitive; CJK matching is substring.
+version: 1
+
+# Self-archiving platforms whose deposits rarely pass peer review.
+blocked_venues:
+  - zenodo
+  - ssrn
+  - research square
+  - preprints.org
+  - scienceopen
+  - osf.io
+  - figshare
+  - arxiv
+
+languages:
+  zh:
+    label: 中文
+    japan:
+      - 日本
+      - 日方
+      - 日清
+      - 日俄
+      - 日中
+      - 中日
+      - 明治
+      - 东京
+    modern:
+      - 近代
+      - 明治
+      - 大正
+      - 昭和
+      - 战后
+      - 戰後
+      - 帝国
+      - 殖民地
+      - 满洲
+      - 滿洲
+      - 侵华
+      - 军国
+      - 近代化
+      - 国民国家
+      - 东亚
+      - 東亞
+      - 日本史
+      - 日本研究
+    exclude:
+      - 日本央行
+      - 日本股市
+      - 日本队
+      - 日本动漫
+      - 日本旅游
+      - 日本汽车
+      - 日元汇率
+      - 日本企业
+      - 日本料理
+      - 日本留学
+    queries:
+      - 日本近代
+      - 明治维新
+      - 日本帝国主义
+      - 近代日本
+
+  en:
+    label: English
+    japan:
+      - japan
+      - japanese
+      - meiji
+      - tokyo
+      - edo
+      - ryukyu
+      - okinawa
+    modern:
+      - modern
+      - meiji
+      - taisho
+      - taishō
+      - showa
+      - shōwa
+      - postwar
+      - post-war
+      - empire
+      - imperial
+      - colonial
+      - colonialism
+      - manchuria
+      - manchukuo
+      - "1868"
+      - "1945"
+      - nation-state
+      - nation building
+      - east asia
+    exclude:
+      - japanese encephalitis
+      - japanese cuisine
+      - bank of japan
+      - japanese yen
+      - stock market
+      - anime
+      - manga sales
+      - japanese language proficiency
+    queries:
+      - modern Japan
+      - Meiji Japan
+      - Japanese empire
+      - postwar Japan
+
+  ja:
+    label: 日本語
+    japan:
+      - 日本
+      - 日清
+      - 日露
+      - 日中
+      - 日韓
+      - 明治
+      - 東京
+      - 琉球
+      - 沖縄
+    modern:
+      - 近代
+      - 明治
+      - 大正
+      - 昭和
+      - 戦後
+      - 帝国
+      - 植民地
+      - 満洲
+      - 満州
+      - 軍国
+      - 近代化
+      - 国民国家
+      - 東アジア
+      - 日本近代史
+      - 日本史
+    exclude:
+      - 日本経済新聞
+      - 日経
+      - 株価
+      - 為替
+      - 円相場
+      - 日本株
+      - アニメ
+      - 観光
+    queries:
+      - 日本近代史
+      - 明治維新
+      - 帝国日本
+      - 戦後日本
+
+  ko:
+    label: 한국어
+    japan:
+      - 일본
+      - 일제
+      - 메이지
+      - 도쿄
+      - 조선
+      - 오키나와
+    modern:
+      - 근대
+      - 메이지
+      - 다이쇼
+      - 쇼와
+      - 전후
+      - 제국
+      - 식민지
+      - 만주
+      - 침략
+      - 근대화
+      - 국민국가
+      - 동아시아
+    exclude:
+      - 일본 경제
+      - 일본 주식
+      - 일본 여행
+      - 일본 애니메이션
+      - 엔화
+      - 일본 기업
+    queries:
+      - 근대 일본
+      - 메이지 유신
+      - 일본 제국
+      - 식민지 조선
+
+# Used for tagging only; the public digest does not display tags.
+periods:
+  meiji: [明治, meiji, 메이지]
+  taisho: [大正, taisho, taishō, 다이쇼]
+  showa_prewar: [昭和, showa, shōwa, 쇼와, 战前, 戰前]
+  postwar: [战后, 戰後, postwar, post-war, 戦後, 전후]
+  contemporary: [平成, 令和, contemporary, 현대]
+  cross: [跨期, 通史, longue durée]

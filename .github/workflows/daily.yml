@@ -1,0 +1,79 @@
+name: daily-digest
+
+on:
+  schedule:
+    # 22:00 UTC = 06:00 Asia/Shanghai
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Override date (YYYY-MM-DD). Leave blank for today."
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Type-check and test
+        run: pnpm run check
+
+      - name: Collect, score, render and send
+        env:
+          OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          KCI_API_KEY: ${{ secrets.KCI_API_KEY }}
+          CINII_APPID: ${{ secrets.CINII_APPID }}
+          NDL_APPID: ${{ secrets.NDL_APPID }}
+          EMAIL_PROVIDER: ${{ secrets.EMAIL_PROVIDER }}
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          set -euo pipefail
+          DATE="${{ inputs.date }}"
+          if [ -z "${DATE:-}" ]; then DATE="$(date -u +%F)"; fi
+          echo "Building digest for $DATE"
+          node --experimental-strip-types pipeline/cli.ts collect
+          node --experimental-strip-types pipeline/cli.ts digest --date "$DATE"
+          node --experimental-strip-types pipeline/cli.ts site
+          node --experimental-strip-types pipeline/cli.ts send --date "$DATE"
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "data: digest $(date -u +%F)"
+            git push
+          fi

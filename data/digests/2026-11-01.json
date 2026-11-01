@@ -1,0 +1,591 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T15:14:20.218Z",
+  "title": "近代日本史研究日报",
+  "sections": {
+    "papers": [
+      {
+        "id": "12ecf4cbdaa4ccd9faeb59e1888fb7815fedd951",
+        "type": "article",
+        "lang": "en",
+        "title": "Convictions and value orientations in Japanese society related to law-abiding behavior",
+        "abstract": "The aim of this article is to examine the beliefs and value orientations within Japanese society that influence the field of crime-fighting, crime prevention, and correctional measures. It analyses the influence of Japan’s major religions on the formation of societal attitudes towards crime and towards individuals who have committed crimes, as well as the national psychological characteristics of the Japanese people which complicate their reintegration into society. It is noted that, as this problem was identified by private philanthropists as far back as the 19th century, Japan has made significant progress in changing public attitudes towards offenders who have embarked on a path of rehabilitation and resocialization. On the basis of academic works and publications, this study highlights the persistence of the communal worldview and consequently, society’s attitude towards deviant behavior in the country during the post-war years, despite large-scale transformations in various spheres of Japanese society. Attention is paid to the concepts of guilt and shame in Japanese culture, and the reintegrative nature of shame is emphasized, which undoubtedly has a significant influence on the successful social reintegration of former offenders in Japan. It is concluded that a distinctive feature of Japanese society in the context of the resocialization of offenders is the fact that responsibility for returning offenders to a lawabiding life is assumed not only by their families, who traditionally constitute the key social unit in this regard, but also community voluntary organizations, of which there are a considerable number in Japan, which shoulder a significant burden of responsibility. Japan’s modern probation and rehabilitation services owe their early emergence to the efforts of private philanthropists, whose legacy also lives on in the numerous private organizations of today, which selflessly assist society in reintegrating offenders into social life. The article examines the activities of non-governmental organizations in the field of the reintegration of convicted offenders, including the Nationwide Organization of Offenders Employment Support Providers and the Movement Towards a Brighter Society, the Women’s Association for Rehabilitation Aid and the Japan Federation for Big Brothers and Sisters. Considerable attention is paid to the country’s established probation service, which is based on a corps of voluntary probation officers known as hogoshi. The conclusion is drawn that, within Japan’s penitentiary culture, particular emphasis is placed on the social rehabilitation of offenders, encompassing reform, resocialization, and reintegration.",
+        "authors": [
+          {
+            "name": "E. V. Kucherenko"
+          }
+        ],
+        "publishedAt": "2026-10-20",
+        "indexedAt": "2026-10-22",
+        "venue": {
+          "name": "Japanese Studies in Russia",
+          "publisher": null,
+          "issn": "2500-2872"
+        },
+        "ids": {
+          "doi": "10.55105/2500-2872-2026-3-72-88",
+          "url": "https://doi.org/10.55105/2500-2872-2026-3-72-88"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "issue": "3",
+        "firstPage": "72",
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 0.8,
+          "period": "postwar",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.217Z"
+        },
+        "score": {
+          "total": 0.482,
+          "components": {
+            "venue": 0.7,
+            "citation": 0,
+            "relevance": 0.8,
+            "recency": 0.7468230004287905,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        }
+      },
+      {
+        "id": "f2e65894fdcdb31854c16b215e9c28f45c370075",
+        "type": "article",
+        "lang": "en",
+        "title": "Public Statuary in Modern Japan",
+        "abstract": "Over the past decade, debates concerning public statues have become increasingly confrontational and divisive. This article situates Japan within these debates to illuminate their broader historical and theoretical dimensions. It contends that the intensification of such controversies reflects the enduring legacy of the Great Man theory of history, an influential historiographical paradigm in the late nineteenth and early twentieth centuries. The study demonstrates how Japan has become part of the global circulation of ideas regarding monumental heroism and examines how elites in Japan have instrumentalized public statuary for the purposes of nation-building and the dissemination of national consciousness among the broader population.",
+        "authors": [
+          {
+            "name": "Sven Saaler"
+          }
+        ],
+        "publishedAt": "2026-11-01",
+        "indexedAt": "2026-11-01",
+        "venue": {
+          "name": "The Public Historian",
+          "publisher": "University of California Press",
+          "issn": "0272-3433"
+        },
+        "ids": {
+          "doi": "10.1525/tph.2026.48.4.7",
+          "url": "https://doi.org/10.1525/tph.2026.48.4.7"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "volume": "48",
+        "issue": "4",
+        "firstPage": "7",
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "cross",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.215Z"
+        },
+        "score": {
+          "total": 0.468,
+          "components": {
+            "venue": 0.4,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.9854388575399856,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        }
+      },
+      {
+        "id": "7e08bb31aa33532aa38a259986778a36260e4af6",
+        "type": "article",
+        "lang": "en",
+        "title": "IFROM BUDDHIST LEARNING TO MODERN NATION-BUILDING India, Japan and the Historical Evolution of Educational Connections",
+        "authors": [
+          {
+            "name": "Ashok Jain"
+          }
+        ],
+        "publishedAt": "2026-10-31",
+        "indexedAt": "2026-11-01",
+        "ids": {
+          "doi": "10.13140/rg.2.2.16522.43201",
+          "url": "https://doi.org/10.13140/rg.2.2.16522.43201"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "cross",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.215Z"
+        },
+        "score": {
+          "total": 0.464,
+          "components": {
+            "venue": 0.4,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.9629314029276518,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        }
+      },
+      {
+        "id": "724b85948f560869c5044ef0c322f7e09fa6f47a",
+        "type": "article",
+        "lang": "en",
+        "title": "RESEARCH ON THE HERITAGE IMPACT ASSESSMENTS FOR WORLD CULTURAL HERITAGE “JAPAN’S MEIJI INDUSTRIAL REVOLUTION”",
+        "authors": [
+          {
+            "name": "Daito KATO"
+          },
+          {
+            "name": "Saikaku TOYOKAWA"
+          }
+        ],
+        "publishedAt": "2026-10-31",
+        "indexedAt": "2026-11-01",
+        "venue": {
+          "name": "Journal of Architecture and Planning (Transactions of AIJ)",
+          "publisher": "Architectural Institute of Japan",
+          "issn": "1340-4210"
+        },
+        "ids": {
+          "doi": "10.3130/aija.91.2811",
+          "url": "https://doi.org/10.3130/aija.91.2811"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "volume": "91",
+        "issue": "849",
+        "firstPage": "2811",
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "meiji",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.217Z"
+        },
+        "score": {
+          "total": 0.464,
+          "components": {
+            "venue": 0.4,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.9629314024126416,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        }
+      },
+      {
+        "id": "847c11ee65c321d311ba27951b6352ddccc19ce7",
+        "type": "article",
+        "lang": "en",
+        "title": "FROM BUDDHIST LEARNING TO MODERN NATION- BUILDING The Historical Evolution of Japanese Education, Eighth Century-1950s",
+        "authors": [
+          {
+            "name": "Ashok Jain"
+          }
+        ],
+        "publishedAt": "2026-10-30",
+        "indexedAt": "2026-10-31",
+        "ids": {
+          "doi": "10.13140/rg.2.2.36668.19845",
+          "url": "https://doi.org/10.13140/rg.2.2.36668.19845"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "cross",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.215Z"
+        },
+        "score": {
+          "total": 0.461,
+          "components": {
+            "venue": 0.4,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.9409380192891283,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        }
+      },
+      {
+        "id": "e4f4f6c21e84c08ac3e944a87baa5c7d8a5fed61",
+        "type": "article",
+        "lang": "ja",
+        "title": "内田じゅん『帝国を地方化する : 近江商人と日本の環太平洋ディアスポラ』",
+        "authors": [
+          {
+            "name": "スティーブン アイビンス"
+          }
+        ],
+        "publishedAt": "2026-09-30",
+        "indexedAt": "2026-10-10",
+        "venue": {
+          "name": "Institutional Repositories DataBase (IRDB)",
+          "publisher": "National Institute of Informatics"
+        },
+        "ids": {
+          "doi": "10.15055/0002000706",
+          "url": "https://doi.org/10.15055/0002000706"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "volume": "73",
+        "firstPage": "279",
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "cross",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.224Z"
+        },
+        "score": {
+          "total": 0.391,
+          "components": {
+            "venue": 0.4,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.4704690085122577,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        }
+      },
+      {
+        "id": "7187466d91b07b4c3b0a5da006d2e71d0cd28f55",
+        "type": "article",
+        "lang": "ja",
+        "title": "垣原智子『帝国日本における女性のパフォーマティヴ・ライティングとアイデンティティの構築』",
+        "authors": [
+          {
+            "name": "ミケーラ ケリー"
+          }
+        ],
+        "publishedAt": "2026-09-30",
+        "indexedAt": "2026-10-10",
+        "venue": {
+          "name": "Institutional Repositories DataBase (IRDB)",
+          "publisher": "National Institute of Informatics"
+        },
+        "ids": {
+          "doi": "10.15055/0002000697",
+          "url": "https://doi.org/10.15055/0002000697"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "volume": "73",
+        "firstPage": "240",
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "cross",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.224Z"
+        },
+        "score": {
+          "total": 0.391,
+          "components": {
+            "venue": 0.4,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.4704690085122577,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        },
+        "titleZh": "垣原智子《帝国日本中的女性表演性书写与身份建构》",
+        "introZh": "研究问题为帝国日本时期女性如何通过书写建构身份。主要材料为女性表演性写作文本，采用文本分析的方法。核心结论揭示女性书写在帝国话语中的身份建构作用。"
+      },
+      {
+        "id": "b9af9e96d6dec16acb062f347f279f96aeffb731",
+        "type": "article",
+        "lang": "ja",
+        "title": "スジン・リ『帝国の子宮 : 近代日本における人口言説と生政治』",
+        "authors": [
+          {
+            "name": "佳榮 崔"
+          }
+        ],
+        "publishedAt": "2026-09-30",
+        "indexedAt": "2026-10-10",
+        "venue": {
+          "name": "Institutional Repositories DataBase (IRDB)",
+          "publisher": "National Institute of Informatics"
+        },
+        "ids": {
+          "doi": "10.15055/0002000699",
+          "url": "https://doi.org/10.15055/0002000699"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "volume": "73",
+        "firstPage": "249",
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "cross",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.224Z"
+        },
+        "score": {
+          "total": 0.391,
+          "components": {
+            "venue": 0.4,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.4704690085122577,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        },
+        "titleZh": "李秀珍《帝国的子宫：近代日本的人口话语与生命政治》",
+        "introZh": "研究问题为近代日本人口话语与生命政治的关系。主要材料为近代日本人口相关论述，采用话语分析的方法。核心结论揭示人口言说如何服务于帝国生命政治。"
+      },
+      {
+        "id": "be4c914c89f9449d10317f1f119fd5e9eb18766a",
+        "type": "article",
+        "lang": "ko",
+        "title": "A Comparative Study of Jinjō Shōgaku Rikasho and Science Textbook for Common Schools: Editorial Principles and the Selective Inheritance of Modern Scientific Knowledge",
+        "abstract": "본 연구는 일본 문부성 편찬 『尋常小學理科書』와 조선총독부 편찬 『普通學校理科書』를 비교하여, 조선총독부가 일본 이과교과서를 어떠한 원리에 따라 수용·편찬하였는지를 규명하는 데 목적을 두었다. 이를 위해 『尋常小學理科書』 제4·5·6학년 아동용과 『普通學校理科書』 권1·권2·권3을 비교 대상으로 설정하고, 편찬 체계와 범례를 검토한 후 단원 구성, 본문, 삽화를 중심으로 대응 관계와 편찬 양상을 실증적으로 분석하였다. 분석 결과, 『普通學校理科書』는 일본 『尋常小學理科書』를 편찬의 기본 원형으로 삼아 학년 체계와 단원 구성, 본문의 서술 구조, 삽화의 교육적 기능을 전반적으로 계승하고 있었다. 반면 단원 배열과 표기, 일부 생활위생 관련 내용과 학습 소재가 선택적으로 수정되었으며, 제염과정 등 기존 학습 내용에 대해서는 시각자료가 보강된 것으로 나타났다. 이러한 결과는 『普通學校理科書』가 일본 교과서를 단순히 번역하거나 복제한 것이 아니라, 근대 과학지식의 기본 구조를 계승하면서 일부 학습 소재와 내용, 표기 및 시각자료를 선택적으로 조정·재구성하는 편찬 원리에 따라 편찬되었음을 보여준다. 또한 본 연구는 단원 구성, 본문, 삽화를 유기적으로 연결하여 분석함으로써 식민지기 교과서 편찬의 실제 과정을 실증적으로 규명하고, 근대 과학 리터러시의 형성과 전파 과정을 이해하기 위한 새로운 분석 관점을 제시하였다는 점에서 의의를 갖는다.",
+        "authors": [
+          {
+            "name": "Yu-Jin Ko"
+          }
+        ],
+        "publishedAt": "2026-09-30",
+        "indexedAt": "2026-10-09",
+        "venue": {
+          "name": "The Korean Journal of Japanese Education",
+          "publisher": null,
+          "issn": "1598-4311"
+        },
+        "ids": {
+          "doi": "10.21808/kjje.76.05",
+          "url": "https://doi.org/10.21808/kjje.76.05"
+        },
+        "volume": "76",
+        "issue": "0",
+        "firstPage": "71",
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "cross",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.225Z"
+        },
+        "score": {
+          "total": 0.391,
+          "components": {
+            "venue": 0.4,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.4704690083864459,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        },
+        "titleZh": "《寻常小学理科书》与《普通学校理科书》比较研究：编纂原则与现代科学知识的选择性继承",
+        "introZh": "研究问题为朝鲜总督府如何依循原则接受并编纂日本理科教科书。主要材料为两套教科书第4至6学年及第1至3卷，比较编纂体系、单元、正文与插图。结论指出《普通学校理科书》整体继承日本原型，同时选择性调整单元排列、标记与部分内容。"
+      }
+    ],
+    "books": [
+      {
+        "id": "8111d331f63932cab27f524fbf1ec4762f05bb25",
+        "type": "book",
+        "lang": "en",
+        "title": "Cross-Cultural Encounters in Early Modern Japan",
+        "authors": [
+          {
+            "name": "Samantha Perez"
+          },
+          {
+            "name": "Matthew Paul Smith"
+          }
+        ],
+        "publishedAt": "2026-06-25",
+        "venue": {
+          "name": "Routledge",
+          "publisher": "Routledge"
+        },
+        "ids": {
+          "doi": "10.4324/9781003633549",
+          "isbn": "9781003633549",
+          "url": "https://doi.org/10.4324/9781003633549"
+        },
+        "sources": [
+          "crossref"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "cross",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.227Z"
+        },
+        "score": {
+          "total": 0.418,
+          "components": {
+            "venue": 0.7,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.05002656693317679,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        },
+        "titleZh": "近代早期日本的跨文化相遇",
+        "introZh": "研究问题为近代早期日本与异文化的接触与互动。仅据标题，主题涉及跨文化相遇的历史考察。摘要缺失，具体材料与结论不详。"
+      },
+      {
+        "id": "b670c473b511172f3cd52b2dddd6fefc68ffafb8",
+        "type": "book",
+        "lang": "en",
+        "title": "Engagements with Modern Japanese Literature",
+        "abstract": "Engagements with Modern Japanese Literature offers an accessible introduction to the development of modern Japanese literature from the Meiji period (1868–1912) to contemporary Japan. It combines literary history and literary analysis to provide an overview as well as in-depth understanding of literary development in the past 150 years. Modern Japanese literature includes an abundant body of work that allows readers to gain insight into the literary, cultural, social, historical, and political development of modern Japan. Angela Yiu begins by exploring the voices of modernity in Meiji literature, including the work of Higuchi Ichiyō, Izumi Kyōka, Natsume Sōseki, and others. Yiu then turns to utopianism and modernism in Taishō and Prewar Literature (1912–1936), and considers Shirakaba-ha writers. The book also looks at women in war and postwar literature (1926–1952), examining a wide range of authors including Ishikawa Jun, Sata Ineko, Hayashi Fumiko, and Sakaguchi Ango. It provides rich insight into the legacy of six major writers from 1950–1970, including the two Nobel Prize laureates Kawabata Yasunari and Ōe Kenzaburō, as well as Mishima Yukio, Enchi Fumiko, Abe Kōbo, and Ishimure Michiko. It concludes by focusing on literature in contemporary Japan from 1989 to the present, offering fascinating insight into the work of Murakami Haruki, Tawada Yōko, Mizumura Minae, and many others. Consistently structured, each chapter introduces key concepts and literary developments; detailed analysis of selected authors and major works; and helpful bolding throughout of important terms discussed further in the glossary. It also features an invaluable glossary, lists of useful resources, major publications and events, and a bibliography of Further Reading. Written with the dual purposes of a teaching resource and an introductory guide, this is an essential text for students and teachers of Japanese literature and culture.",
+        "authors": [
+          {
+            "name": "Angela Yiu"
+          }
+        ],
+        "publishedAt": "2026-06-23",
+        "indexedAt": "2026-06-24",
+        "venue": {
+          "name": "Routledge eBooks",
+          "publisher": "Routledge"
+        },
+        "ids": {
+          "doi": "10.4324/9781003520306",
+          "url": "https://doi.org/10.4324/9781003520306"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "meiji",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.227Z"
+        },
+        "score": {
+          "total": 0.417,
+          "components": {
+            "venue": 0.7,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.047767447408606306,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        },
+        "titleZh": "现代日本文学的参与",
+        "introZh": "研究问题为明治时期至当代日本文学的发展脉络。主要材料为樋口一叶、泉镜花、夏目漱石、白桦派及战争与战后女作家等作品，结合文学史与文本分析。核心结论呈现近一百五十年日本文学的发展概貌。"
+      },
+      {
+        "id": "7e3475839fd2a11bf55870efab891d04c59ba8ff",
+        "type": "book",
+        "lang": "en",
+        "title": "Understanding Modern Japan Through Its Literature",
+        "abstract": "In today’s ever-shrinking \"global village\", intercultural communication based on mutual respect and understanding is more important than ever. The humanities foster precisely this kind of understanding of cultures other than our own. One of the most effective ways to gain deep insight into another society is through its literature, which offers an insider’s perspective on history, religion, politics, and social values. Understanding Modern Japan Through Its Literature, based on more than fifty years of research, provides such an in-depth view of one of the world’s most fascinating cultures. The volume explores how Japanese writers and intellectuals responded to the turbulent history of the past century and a half, from Western imperialism and Japan’s own imperial expansion to wartime defeat, atomic destruction, and postwar economic recovery. By examining literary responses to these dramatic transformations, the book reveals how Japanese authors struggled to construct and reconstruct national identity amid imperialism, modernization, capitalism, fascism, and globalization. In doing so, it offers an intimate and compelling portrait of Japanese experience throughout the twentieth century.",
+        "authors": [
+          {
+            "name": " Roy Starrs"
+          }
+        ],
+        "publishedAt": "2026-10-01",
+        "indexedAt": "2026-09-29",
+        "venue": {
+          "name": "Otago University Research Archive (University of Otago)",
+          "publisher": "University of Otago"
+        },
+        "ids": {
+          "url": "https://openalex.org/W7214695042"
+        },
+        "citationCount": 0,
+        "fwci": 0,
+        "sources": [
+          "openalex"
+        ],
+        "ai": {
+          "relevant": true,
+          "confidence": 1,
+          "period": "postwar",
+          "model": "rules",
+          "at": "2026-11-01T15:14:11.226Z"
+        },
+        "score": {
+          "total": 0.392,
+          "components": {
+            "venue": 0.4,
+            "citation": 0,
+            "relevance": 1,
+            "recency": 0.48146570004754785,
+            "cross_source": 0,
+            "jstor": 0
+          }
+        },
+        "titleZh": "通过文学理解现代日本",
+        "introZh": "研究问题为日本作家与知识分子如何回应近一个半世纪的动荡历史。主要材料为相关文学作品，基于五十余年研究进行文学分析。核心结论揭示日本作家在帝国主义、现代化、资本主义、法西斯主义与全球化中建构与重构民族认同。"
+      }
+    ]
+  },
+  "stats": {
+    "fetched": 338,
+    "deduped": 323,
+    "relevant": 82,
+    "byLang": {
+      "en": 8,
+      "ja": 3,
+      "ko": 1
+    },
+    "bySource": {
+      "openalex": 223,
+      "crossref": 105,
+      "jstage": 10,
+      "cnjournal": 2
+    },
+    "llmCalls": 2,
+    "costUsd": 0.0019
+  },
+  "notices": [
+    "今日暂无中文文献"
+  ]
+}
